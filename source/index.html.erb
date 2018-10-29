@@ -2,35 +2,70 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
-  </div>
-</div>
-
-<div class="banner" >
-  <%= image_tag "tom_cruise.jpeg" %>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path "tom_cruise.jpeg" %>');">
   <div class="banner-content">
     <h1>THEY THINK THAT I'M TOM CRUISE</h1>
-    <p>BAOW!</p>
-    <a href="https://www.youtube.com/watch?v=M_Hy_O_44D4" class="btn btn-primary btn-lg">LEARN MY TRUE NATURE</a>
+    <div class="banner-link">
+      <a href="https://www.youtube.com/watch?v=M_Hy_O_44D4">LEARN MY TRUE NATURE</a>
+    </div>
+    <div class="banner-form">
+      <form action="#" class="form-inline">
+         <input type="text" class="form-control input-lg" placeholder="Where?">
+         <input type="text" class="form-control input-lg" placeholder="When?">
+         <select name="" id="" class="form-control input-lg">
+           <option value="1">1 child sacrifice</option>
+           <option value="2">2 child sacrifices</option>
+           <option value="3">3 child sacrifices </option>
+         </select>
+       </form>
+      <div class="button">
+          <input type="submit" class="btn btn-danger btn-lg" value="Discover the limitations of your being.">
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
-  <div class="card-category">Popular</div>
-  <div class="card-description">
-    <h2>Le Wagon Shanghai</h2>
-    <p>Very cool city, the best</p>
-  </div>
-  <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-  <a class="card-link" href="#" ></a>
-</div>
+<div class="container" id="home-flats">
 
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+          <h2>Le Wagon Zion</h2>
+          <p>Very cool city, the best</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/ssaunier">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+          <h2>Le Wagon Atlantis</h2>
+          <p>Very cool city, the best</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/papillard">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/tokyo');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+          <h2>Le Wagon Thule</h2>
+          <p>Very cool city, the best</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/Monsieurpaillard">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 

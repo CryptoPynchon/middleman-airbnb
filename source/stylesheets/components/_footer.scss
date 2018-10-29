@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  position: fixed;
+  height: 25px;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.footer-links {
+  padding-left: 10px;
+}
+
+.fab {
+  color: black;
+  opacity: 0.8;
+}
+
+.footer-copyright {
+  padding-right: 10px;
+}
