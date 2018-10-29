@@ -1,0 +1,20 @@
+/* Your banner CSS file */
+
+h1 {
+  color: white;
+  font-size: 100px;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.banner {
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
